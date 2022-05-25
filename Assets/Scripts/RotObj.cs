@@ -23,7 +23,7 @@ public class RotObj : MonoBehaviour
     IEnumerator Rotate()
     {
 
-        transform.Rotate(new Vector3(0f, Time.time, Time.time));
+        transform.Rotate(new Vector3(0f, Time.time, 0f));
         yield return null;
     }
 }
